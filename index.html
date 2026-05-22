@@ -150,36 +150,64 @@
     </div>
 
     <!-- MOBILE MENU -->
-    <div
-      id="mobileMenu"
-      class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-500"
+   <div
+  id="mobileMenu"
+  class="md:hidden overflow-hidden transition-all duration-500 max-h-0 opacity-0"
+>
+
+     <ul class="flex flex-col px-6 pb-6 text-gray-300 font-medium bg-black/95">
+
+  <li class="py-4 border-b border-white/10">
+    <a
+      href="index.html"
+      class="hover:text-white transition block"
+      onclick="closeMenu()"
     >
+      Home
+    </a>
+  </li>
 
-      <ul
-        class="flex flex-col px-6 pb-6 text-gray-300 font-medium bg-black/95"
-      >
+  <li class="py-4 border-b border-white/10">
+    <a
+      href="/html/about.html"
+      class="hover:text-white transition block"
+      onclick="closeMenu()"
+    >
+      About
+    </a>
+  </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          Home
-        </li>
+  <li class="py-4 border-b border-white/10">
+    <a
+      href=""
+      class="hover:text-white transition block"
+      onclick="closeMenu()"
+    >
+      Projects
+    </a>
+  </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          About
-        </li>
+  <li class="py-4 border-b border-white/10">
+    <a
+      href="services.html"
+      class="hover:text-white transition block"
+      onclick="closeMenu()"
+    >
+      Services
+    </a>
+  </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          Projects
-        </li>
+  <li class="py-4">
+    <a
+      href="contact.html"
+      class="hover:text-white transition block"
+      onclick="closeMenu()"
+    >
+      Contact
+    </a>
+  </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          Services
-        </li>
-
-        <li class="py-4 hover:text-white transition">
-          Contact
-        </li>
-
-      </ul>
+</ul>
 
     </div>
 
