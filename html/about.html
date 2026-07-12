@@ -5,152 +5,134 @@
 
   <meta charset="UTF-8" />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>About Us</title>
 
   <!-- Tailwind -->
   <link rel="stylesheet" href="/css/loader.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  
+
 
   <!-- Font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
   <style>
-
-    *{
+    * {
       font-family: 'Poppins', sans-serif;
     }
 
-    html{
+    html {
       scroll-behavior: smooth;
     }
 
-    body{
+    body {
       background: #0F0F0F;
       overflow-x: hidden;
     }
 
     /* SCROLL ANIMATION */
-    .fade-up-about{
+    .fade-up-about {
       opacity: 0;
       transform: translateY(70px);
       transition:
         opacity .9s ease,
-        transform .9s cubic-bezier(.22,1,.36,1);
+        transform .9s cubic-bezier(.22, 1, .36, 1);
     }
 
-    .fade-up-about.show-about{
+    .fade-up-about.show-about {
       opacity: 1;
       transform: translateY(0);
     }
 
     /* IMAGE FLOAT */
-    .floating-image{
+    .floating-image {
       animation: floatImage 5s ease-in-out infinite;
     }
 
-    @keyframes floatImage{
+    @keyframes floatImage {
 
-      0%{
+      0% {
         transform: translateY(0px);
       }
 
-      50%{
+      50% {
         transform: translateY(-12px);
       }
 
-      100%{
+      100% {
         transform: translateY(0px);
       }
 
     }
 
     /* CARD HOVER */
-    .about-card{
+    .about-card {
       transition:
         transform .4s ease,
         box-shadow .4s ease,
         border .4s ease;
     }
 
-    .about-card:hover{
+    .about-card:hover {
       transform: translateY(-8px);
-      border-color: rgba(59,130,246,.5);
-      box-shadow: 0 20px 60px rgba(59,130,246,.12);
+      border-color: rgba(59, 130, 246, .5);
+      box-shadow: 0 20px 60px rgba(59, 130, 246, .12);
     }
 
     /* BUTTON */
-    .explore-btn{
+    .explore-btn {
       transition:
         transform .3s ease,
         box-shadow .3s ease,
         background .3s ease;
     }
 
-    .explore-btn:hover{
+    .explore-btn:hover {
       transform: translateY(-4px) scale(1.03);
-      box-shadow: 0 15px 40px rgba(59,130,246,.25);
+      box-shadow: 0 15px 40px rgba(59, 130, 246, .25);
     }
-
   </style>
 
 </head>
 
 <body>
 
-   <div
-  id="loader"
-  class="fixed inset-0 bg-[#0F0F0F] z-[9999] flex items-center justify-center"
->
+  <div id="loader" class="fixed inset-0 bg-[#0F0F0F] z-[9999] flex items-center justify-center">
 
-  <h1
-    class="loader-text text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-[6px]"
-  >
-    <span class="text-blue-400">Z.B.</span>SETHNA
-    <span class="block text-2xl sm:text-3xl mt-4 tracking-[10px] text-gray-300">
-      ARCHITECTS
-    </span>
-  </h1>
+    <h1 class="loader-text text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-[6px]">
+      <span class="text-blue-400">Z.B.</span>SETHNA
+      <span class="block text-2xl sm:text-3xl mt-4 tracking-[10px] text-gray-300">
+        ARCHITECTS
+      </span>
+    </h1>
 
-</div>
+  </div>
 
-    <nav
-    class="w-full backdrop-blur-xl border-b border-white/10 sticky top-0 z-50"
-  >
+  <nav class="w-full backdrop-blur-xl border-b border-white/10 sticky top-0 z-50">
 
-    <div
-      class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between"
-    >
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
       <!-- LOGO -->
       <h1 class="text-2xl font-black text-white tracking-wide">
-
+  <a href="/index.html">
         Z.B.SETHNA
         <span class="text-blue-500">
           ARCHITECTS
         </span>
-
+</a>
       </h1>
 
       <!-- DESKTOP LINKS -->
-      <ul
-        class="hidden md:flex items-center gap-10 text-gray-300 font-medium"
-      >
+      <ul class="hidden md:flex items-center gap-10 text-gray-300 font-medium">
 
         <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
-         <a href="/index.html">Home</a>
+          <a href="/index.html">Home</a>
         </li>
 
         <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
-          <a href="html/about.html">About</a>
+          <a href="html/about.html">About Us</a>
         </li>
 
         <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
@@ -168,58 +150,51 @@
       </ul>
 
       <!-- MOBILE BUTTON -->
-      <button
-        id="menuBtn"
-        class="md:hidden flex flex-col gap-1"
-      >
+      <button id="menuBtn" class="md:hidden flex flex-col gap-1">
 
-        <span
-          id="line1"
-          class="w-6 h-[2px] bg-white transition duration-300"
-        ></span>
+        <span id="line1" class="w-6 h-[2px] bg-white transition duration-300"></span>
 
-        <span
-          id="line2"
-          class="w-6 h-[2px] bg-white transition duration-300"
-        ></span>
+        <span id="line2" class="w-6 h-[2px] bg-white transition duration-300"></span>
 
-        <span
-          id="line3"
-          class="w-6 h-[2px] bg-white transition duration-300"
-        ></span>
+        <span id="line3" class="w-6 h-[2px] bg-white transition duration-300"></span>
 
       </button>
 
     </div>
 
     <!-- MOBILE MENU -->
-    <div
-      id="mobileMenu"
-      class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-500"
-    >
+    <div id="mobileMenu" class="md:hidden overflow-hidden transition-all duration-500 max-h-0 opacity-0">
 
-      <ul
-        class="flex flex-col px-6 pb-6 text-gray-300 font-medium bg-black/95"
-      >
+      <ul class="flex flex-col px-6 pb-6 text-gray-300 font-medium bg-black/95">
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-         <a href="/index.html">Home</a>
+        <li class="py-4 border-b border-white/10">
+          <a href="/index.html" class="hover:text-white transition block" onclick="closeMenu()">
+            Home
+          </a>
         </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          About
+        <li class="py-4 border-b border-white/10">
+          <a href="/html/about.html" class="hover:text-white transition block" onclick="closeMenu()">
+            About
+          </a>
         </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          Projects
+        <li class="py-4 border-b border-white/10">
+          <a href="" class="hover:text-white transition block" onclick="closeMenu()">
+            Projects
+          </a>
         </li>
 
-        <li class="py-4 border-b border-white/10 hover:text-white transition">
-          Services
+        <li class="py-4 border-b border-white/10">
+          <a href="services.html" class="hover:text-white transition block" onclick="closeMenu()">
+            Services
+          </a>
         </li>
 
-        <li class="py-4 hover:text-white transition">
-          Contact
+        <li class="py-4">
+          <a href="contact.html" class="hover:text-white transition block" onclick="closeMenu()">
+            Contact
+          </a>
         </li>
 
       </ul>
@@ -231,53 +206,38 @@
   <!-- ABOUT SECTION -->
   <section class="py-24 px-6 text-white overflow-hidden">
 
-    <div
-      class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center"
-    >
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
       <!-- IMAGE -->
       <div class="fade-up-about relative">
 
         <!-- GLOW -->
-        <div
-          class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 blur-3xl rounded-full"
-        ></div>
+        <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 blur-3xl rounded-full"></div>
 
-        <img
-          src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=1200&auto=format&fit=crop"
-          alt=""
-          class="floating-image relative rounded-[30px] h-[350px] sm:h-[500px] w-full object-cover border border-white/10 shadow-2xl"
-        />
+        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=1200&auto=format&fit=crop" alt=""
+          class="floating-image relative rounded-[30px] h-[350px] sm:h-[500px] w-full object-cover border border-white/10 shadow-2xl" />
 
       </div>
 
       <!-- CONTENT -->
       <div class="fade-up-about">
 
-        <p
-          class="text-blue-400 tracking-[6px] font-semibold mb-5 text-sm"
-        >
+        <p class="text-blue-400 tracking-[6px] font-semibold mb-5 text-sm">
           ABOUT US
         </p>
 
-        <h1
-          class="text-4xl sm:text-5xl md:text-6xl font-black leading-tight"
-        >
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-black leading-tight">
 
           Designing
           Timeless
 
-          <span
-            class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300"
-          >
+          <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
             Architectural Spaces
           </span>
 
         </h1>
 
-        <p
-          class="text-gray-400 leading-8 mt-8 text-base sm:text-lg"
-        >
+        <p class="text-gray-400 leading-8 mt-8 text-base sm:text-lg">
 
           At Z.B.SETHNA ARCHITECTS, we believe architecture is more
           than constructing buildings — it is about shaping
@@ -290,9 +250,7 @@
 
         </p>
 
-        <p
-          class="text-gray-400 leading-8 mt-6 text-base sm:text-lg"
-        >
+        <p class="text-gray-400 leading-8 mt-6 text-base sm:text-lg">
 
           With years of expertise and a passion for innovative
           design, our team focuses on modern aesthetics,
@@ -303,43 +261,29 @@
         </p>
 
         <!-- CARDS -->
-        <div
-          class="grid sm:grid-cols-2 gap-5 mt-12"
-        >
+        <div class="grid sm:grid-cols-2 gap-5 mt-12">
 
           <!-- CARD -->
-          <div
-            class="about-card bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl"
-          >
+          <div class="about-card bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl">
 
-            <h2
-              class="text-4xl font-black text-blue-400"
-            >
-              15+
+            <h2 class="text-4xl font-black text-blue-400">
+              60+
             </h2>
 
-            <p
-              class="text-gray-300 mt-3"
-            >
+            <p class="text-gray-300 mt-3">
               Years Of Architectural Excellence
             </p>
 
           </div>
 
           <!-- CARD -->
-          <div
-            class="about-card bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl"
-          >
+          <div class="about-card bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl">
 
-            <h2
-              class="text-4xl font-black text-blue-400"
-            >
-              250+
+            <h2 class="text-4xl font-black text-blue-400">
+              1000+
             </h2>
 
-            <p
-              class="text-gray-300 mt-3"
-            >
+            <p class="text-gray-300 mt-3">
               Premium Residential & Commercial Projects
             </p>
 
@@ -348,9 +292,7 @@
         </div>
 
         <!-- BUTTON -->
-        <button
-          class="explore-btn mt-10 bg-blue-500 hover:bg-blue-400 px-8 py-4 rounded-2xl font-semibold text-white"
-        >
+        <button class="explore-btn mt-10 bg-blue-500 hover:bg-blue-400 px-8 py-4 rounded-2xl font-semibold text-white">
           Explore Our Work
         </button>
 
@@ -361,58 +303,38 @@
   </section>
 
   <!-- SECOND SECTION -->
-  <section
-    class="py-24 px-6 text-white"
-  >
+  <section class="py-24 px-6 text-white">
 
-    <div
-      class="max-w-7xl mx-auto"
-    >
+    <div class="max-w-7xl mx-auto">
 
       <!-- HEADING -->
-      <div
-        class="fade-up-about text-center mb-16"
-      >
+      <div class="fade-up-about text-center mb-16">
 
-        <p
-          class="text-blue-400 tracking-[6px] font-semibold mb-4 text-sm"
-        >
+        <p class="text-blue-400 tracking-[6px] font-semibold mb-4 text-sm">
           WHY CHOOSE US
         </p>
 
-        <h1
-          class="text-4xl sm:text-5xl font-black"
-        >
+        <h1 class="text-4xl sm:text-5xl font-black">
           Our Design Philosophy
         </h1>
 
       </div>
 
       <!-- GRID -->
-      <div
-        class="grid md:grid-cols-3 gap-8"
-      >
+      <div class="grid md:grid-cols-3 gap-8">
 
         <!-- BOX -->
-        <div
-          class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8"
-        >
+        <div class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8">
 
-          <div
-            class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl"
-          >
+          <div class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl">
             ✨
           </div>
 
-          <h2
-            class="text-2xl font-bold mt-6"
-          >
+          <h2 class="text-2xl font-bold mt-6">
             Modern Design
           </h2>
 
-          <p
-            class="text-gray-400 leading-7 mt-4"
-          >
+          <p class="text-gray-400 leading-7 mt-4">
 
             Clean lines, premium materials and timeless aesthetics
             designed to elevate every project.
@@ -422,25 +344,17 @@
         </div>
 
         <!-- BOX -->
-        <div
-          class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8"
-        >
+        <div class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8">
 
-          <div
-            class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl"
-          >
+          <div class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl">
             🏛️
           </div>
 
-          <h2
-            class="text-2xl font-bold mt-6"
-          >
+          <h2 class="text-2xl font-bold mt-6">
             Smart Planning
           </h2>
 
-          <p
-            class="text-gray-400 leading-7 mt-4"
-          >
+          <p class="text-gray-400 leading-7 mt-4">
 
             Thoughtfully planned spaces focused on functionality,
             comfort and efficient living experiences.
@@ -450,25 +364,17 @@
         </div>
 
         <!-- BOX -->
-        <div
-          class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8"
-        >
+        <div class="fade-up-about about-card bg-white/5 border border-white/10 rounded-[30px] p-8">
 
-          <div
-            class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl"
-          >
+          <div class="w-16 h-16 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl">
             🌍
           </div>
 
-          <h2
-            class="text-2xl font-bold mt-6"
-          >
+          <h2 class="text-2xl font-bold mt-6">
             Sustainable Vision
           </h2>
 
-          <p
-            class="text-gray-400 leading-7 mt-4"
-          >
+          <p class="text-gray-400 leading-7 mt-4">
 
             Environmentally conscious designs combining beauty,
             innovation and long-term sustainability.
@@ -485,90 +391,90 @@
 
   <footer class="bg-[#0F0F0F] border-t border-white/10 text-white px-6 py-10">
 
-  <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
 
-    <!-- LOGO -->
-    <div>
+      <!-- LOGO -->
+      <div>
 
-      <h1 class="text-2xl font-black mb-4">
-        Z.B.SETHNA
-        <span class="text-blue-400">
-          ARCHITECTS
-        </span>
-      </h1>
+        <h1 class="text-2xl font-black mb-4">
+          Z.B.SETHNA
+          <span class="text-blue-400">
+            ARCHITECTS
+          </span>
+        </h1>
 
-      <p class="text-gray-400 text-sm leading-7">
-        Modern architectural designs with creativity and elegance.
-      </p>
-
-    </div>
-
-    <!-- CONTACT -->
-    <div>
-
-      <h2 class="text-xl font-bold mb-4">
-        Contact
-      </h2>
-
-      <div class="space-y-2 text-gray-300 text-sm">
-
-        <p>
-          Mr. Jamshed Sethna — 9820538537
+        <p class="text-gray-400 text-sm leading-7">
+          Modern architectural designs with creativity and elegance.
         </p>
 
-        <p>
-          Mr. Zarir Sethna — 9820500639
-        </p>
+      </div>
 
-        <p>
-          Ms. Khursheed Sethna — 9833192641
-        </p>
+      <!-- CONTACT -->
+      <div>
 
-        <p>
-          Mr. Farhaad Sethna — 8879811637
-        </p>
+        <h2 class="text-xl font-bold mb-4">
+          Contact
+        </h2>
 
-        <p class="text-blue-400 break-all">
-          jamshedsethna@gmail.com
-        </p>
+        <div class="space-y-2 text-gray-300 text-sm">
+
+          <p>
+            Mr. Jamshed Sethna — 9820538537
+          </p>
+
+          <p>
+            Mr. Zarir Sethna — 9820500639
+          </p>
+
+          <p>
+            Ms. Khursheed Sethna — 9833192641
+          </p>
+
+          <p>
+            Mr. Farhaad Sethna — 8879811637
+          </p>
+
+          <p class="text-blue-400 break-all">
+            jamshedsethna@gmail.com
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- OFFICE -->
+      <div>
+
+        <h2 class="text-xl font-bold mb-4">
+          Office
+        </h2>
+
+        <div class="text-gray-300 text-sm leading-7">
+
+          <p>
+            210, Hind Rajasthan Centre,
+            Dada Saheb Phalke Marg,
+            Dadar East, Mumbai 400014
+          </p>
+
+          <p class="mt-3">
+            Timing: 11 AM — 10 PM
+          </p>
+
+        </div>
 
       </div>
 
     </div>
 
-    <!-- OFFICE -->
-    <div>
+    <!-- BOTTOM -->
+    <div class="border-t border-white/10 mt-8 pt-5 text-center text-gray-500 text-sm">
 
-      <h2 class="text-xl font-bold mb-4">
-        Office
-      </h2>
-
-      <div class="text-gray-300 text-sm leading-7">
-
-        <p>
-          210, Hind Rajasthan Centre,
-          Dada Saheb Phalke Marg,
-          Dadar East, Mumbai 400014
-        </p>
-
-        <p class="mt-3">
-          Timing: 11 AM — 10 PM
-        </p>
-
-      </div>
+      © 2026 Z.B.SETHNA ARCHITECTS
 
     </div>
 
-  </div>
-
-  <!-- BOTTOM -->
-  <div class="border-t border-white/10 mt-8 pt-5 text-center text-gray-500 text-sm">
-
-    © 2026 Z.B.SETHNA ARCHITECTS
-
-  </div>
-
-</footer>
+  </footer>
 
   <script>
 
@@ -581,7 +487,7 @@
 
         entries.forEach((entry) => {
 
-          if(entry.isIntersecting){
+          if (entry.isIntersecting) {
 
             entry.target.classList.add("show-about")
 
@@ -602,6 +508,7 @@
   </script>
 
   <script src="/js/loader.js"></script>
+  <script src="/js/navbar.js"></script>
 
 </body>
 

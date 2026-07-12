@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        /* CARD ANIMATION */
+        .project-card {
+            opacity: 0;
+            transform: translateY(60px) scale(.96);
+            transition:
+                opacity .7s ease,
+                transform .7s cubic-bezier(.22, 1, .36, 1),
+                box-shadow .4s ease;
+        }
+
+        .project-card.show {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        /* CARD HOVER */
+        .project-card:hover {
+            box-shadow: 0 20px 60px rgba(59, 130, 246, .15);
+        }
+
+        /* MODAL ANIMATION */
+        #modal {
+            backdrop-filter: blur(8px);
+            animation: modalFade .35s ease;
+        }
+
+        @keyframes modalFade {
+
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+
+        }
+
+        /* IMAGE SMOOTH ANIMATION */
+        #modalImage {
+            transition:
+                opacity .35s ease,
+                transform .35s ease;
+        }
+
+        /* IMAGE ACTIVE EFFECT */
+        .modal-image-animate {
+            opacity: 0;
+            transform: scale(.97);
+        }
+
+        /* BUTTON HOVER */
+        .slider-btn {
+            transition:
+                transform .25s ease,
+                color .25s ease;
+        }
+
+        .slider-btn:hover {
+            transform: scale(1.15);
+        }
+
+        /* DOT ANIMATION */
+        .dot {
+            transition:
+                transform .3s ease,
+                background .3s ease,
+                opacity .3s ease;
+        }
+
+        .dot:hover {
+            transform: scale(1.2);
+        }
+
+        nav{
+            background-color: black;
+        }
+
+        .animate-residential{
+    opacity: 0;
+    transform: translateY(70px) scale(.95);
+    animation: residentialReveal .9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @keyframes residentialReveal{
+
+    0%{
+      opacity: 0;
+      transform: translateY(70px) scale(.95);
+      letter-spacing: 12px;
+      filter: blur(10px);
+    }
+
+    60%{
+      opacity: 1;
+      transform: translateY(-8px) scale(1.02);
+      letter-spacing: 2px;
+      filter: blur(0px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      letter-spacing: 0px;
+      filter: blur(0px);
+    }
+
+  }
+
+  /* PROJECTS ANIMATION */
+  .animate-projects{
+    animation: projectsFade .7s ease forwards;
+    animation-delay: .45s;
+  }
+
+  @keyframes projectsFade{
+
+    from{
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+  }
+
+
+      
+    </style>
+</head>
+
+<body>
+
+    <nav
+    class="w-full backdrop-blur-xl border-b border-white/10 sticky top-0 z-50"
+  >
+
+    <div
+      class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between"
+    >
+
+      <!-- LOGO -->
+      <h1 class="text-2xl font-black text-white tracking-wide">
+
+        Z.B.SETHNA
+        <span class="text-blue-500">
+          ARCHITECTS
+        </span>
+
+      </h1>
+
+      <!-- DESKTOP LINKS -->
+      <ul
+        class="hidden md:flex items-center gap-10 text-gray-300 font-medium"
+      >
+
+        <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
+          Home
+        </li>
+
+        <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
+          <a href="html/about.html">About</a>
+        </li>
+
+        <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
+          Projects
+        </li>
+
+        <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
+          Services
+        </li>
+
+        <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
+          Contact
+        </li>
+
+      </ul>
+
+      <!-- MOBILE BUTTON -->
+      <button
+        id="menuBtn"
+        class="md:hidden flex flex-col gap-1"
+      >
+
+        <span
+          id="line1"
+          class="w-6 h-[2px] bg-white transition duration-300"
+        ></span>
+
+        <span
+          id="line2"
+          class="w-6 h-[2px] bg-white transition duration-300"
+        ></span>
+
+        <span
+          id="line3"
+          class="w-6 h-[2px] bg-white transition duration-300"
+        ></span>
+
+      </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div
+      id="mobileMenu"
+      class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-500"
+    >
+
+      <ul
+        class="flex flex-col px-6 pb-6 text-gray-300 font-medium bg-black/95"
+      >
+
+        <li class="py-4 border-b border-white/10 hover:text-white transition">
+          Home
+        </li>
+
+        <li class="py-4 border-b border-white/10 hover:text-white transition">
+          About
+        </li>
+
+        <li class="py-4 border-b border-white/10 hover:text-white transition">
+          Projects
+        </li>
+
+        <li class="py-4 border-b border-white/10 hover:text-white transition">
+          Services
+        </li>
+
+        <li class="py-4 hover:text-white transition">
+          Contact
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+    <section class="bg-[#0F0F0F] min-h-screen text-white py-20 px-4 sm:px-6 overflow-hidden">
+
+        <div class="max-w-7xl mx-auto">
+
+            <!-- HEADING -->
+            <div class="text-center mb-16">
+
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black leading-tight overflow-hidden">
+
+  <!-- RESIDENTIAL -->
+  <span
+    class="inline-block text-blue-400 animate-residential"
+  >
+    Commercial
+  </span>
+
+  <!-- PROJECTS -->
+  <span
+    class="inline-block ml-2 opacity-0 animate-projects"
+  >
+    Projects
+  </span>
+
+</h1>
+
+
+            </div>
+
+            <!-- CARDS -->
+            <div id="projectsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MODAL -->
+    <div id="modal" class="fixed inset-0 bg-black/95 z-50 hidden items-center justify-center p-4">
+
+        <!-- CLOSE -->
+        <button id="closeBtn" class="absolute top-5 right-6 text-white text-5xl hover:text-blue-400 transition z-50">
+            ×
+        </button>
+
+        <!-- LEFT -->
+        <button id="prevBtn" class="absolute left-3 sm:left-8 text-white text-5xl hover:text-blue-400 transition z-50">
+            ❮
+        </button>
+
+        <!-- CONTENT -->
+        <div class="max-w-6xl w-full text-center">
+
+            <img id="modalImage" src="" alt=""
+                class="w-full h-[300px] sm:h-[500px] lg:h-[700px] object-cover rounded-[24px] transition duration-300" />
+
+            <h2 id="modalTitle" class="text-2xl sm:text-4xl font-black mt-8">
+            </h2>
+
+            <!-- DOTS -->
+            <div id="dotsContainer" class="flex justify-center gap-3 mt-6 flex-wrap">
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <button id="nextBtn"
+            class="absolute right-3 sm:right-8 text-white text-5xl hover:text-blue-400 transition z-50">
+            ❯
+        </button>
+
+    </div>
+
+    <script src="/js/commercial.js"></script>
+</body>
+
+</html>

@@ -21,7 +21,7 @@ const projects = [
         description:
             "Premium commercial spaces designed for functionality and modern business needs.",
 
-        link: "commercial.html"
+        link: "html/commercial.html"
     },
 
     {

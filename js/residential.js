@@ -43,8 +43,9 @@ const projects = [
 
         images: [
             "/images/Sharukh Kothawala Bungalow.JPG",
-            "/images/Frany Bathena.JPG",
-            "/images/Sohrab Chinoy, Parsi colony, Dadar.jpg"
+            "/images/sk1.JPG",
+            "/images/sk2.JPG",
+            "/images/sk3.JPG"
         ]
     },
 
@@ -53,8 +54,10 @@ const projects = [
 
         images: [
             "/images/Sohrab Chinoy, Parsi colony, Dadar.jpg",
-            "/images/Ashish Wangh Bungalow, Udvada.JPG",
-            "/images/Mr. Hoshang Mehta ,Dadar.jpg"
+            "/images/sc1.jpg",
+            "/images/sc2.jpg",
+            "/images/sc3.jpg",
+            "/images/sc4.jpg",
         ]
     },
 
@@ -63,8 +66,9 @@ const projects = [
 
         images: [
             "/images/zal kavarana.jpg",
-            "/images/Sharukh Kothawala Bungalow.JPG",
-            "/images/Frany Bathena.JPG"
+            "/images/z1.jpg",
+            "/images/z2.jpg",
+            "/images/z3.jpg",
         ]
     }
 
