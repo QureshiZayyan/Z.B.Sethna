@@ -73,7 +73,51 @@ const projects = [
             "/images/p4.JPG",
             "/images/p5.JPG",
         ]
-    }
+    },
+    {
+        title: "Shre Arihant Co.Oprative Bank Ltd. at Sanpada,Navi Mumbai",
+
+        images: [
+            "/images/sa1.jpg",
+            "/images/sa2.jpg",
+            "/images/sa3.jpg",
+            "/images/sa4.jpg",
+            "/images/sa5.jpg",
+        ]
+    },
+    {
+        title: "Rich Graviss Ltd.and bskin Robbins,M.I.D.C. Pimri,Pune",
+
+        images: [
+            "/images/rg1.jpg",
+            "/images/rg2.jpg",
+            "/images/rg3.jpg",
+            "/images/rg4.jpg",
+            "/images/rg5.jpg",
+            "/images/rg6.jpg",
+        ]
+    },
+    {
+        title: "Rhyme-N-Rhythm,Music Salon at Colaba",
+
+        images: [
+            "/images/rn1.jpg",
+            "/images/rn2.jpg",
+            "/images/rn3.jpg",
+            "/images/rn4.jpg",
+        ]
+    },
+    {
+        title: "neo logistics",
+
+        images: [
+            "/images/ne1.jpg",
+            "/images/ne2.jpg",
+            "/images/ne3.jpg",
+            "/images/ne4.jpg",
+            "/images/ne5.jpg",
+        ]
+    },
 
 ]
 

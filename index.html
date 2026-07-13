@@ -15,11 +15,16 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="css/loader.css">
+  <link rel="stylesheet" href="css/style.css">
 
 
   <style>
     * {
       font-family: 'Poppins', sans-serif;
+    }
+
+    html,body{
+      scroll-behavior: smooth;
     }
 
     body {
@@ -81,11 +86,11 @@
 
       <h1 class="text-2xl font-black text-white tracking-wide">
         <a href="index.html">
-        Z.B.SETHNA
-        <span class="text-blue-500">
-          ARCHITECTS
-        </span>
- </a>
+          Z.B.SETHNA
+          <span class="text-blue-500">
+            ARCHITECTS
+          </span>
+        </a>
       </h1>
 
       <!-- DESKTOP LINKS -->
@@ -108,7 +113,9 @@
         </li>
 
         <li class="hover:text-blue-500 transition duration-300 cursor-pointer">
-          Contact
+          <a href="#foot">
+            Contact
+          </a>
         </li>
 
       </ul>
@@ -279,7 +286,7 @@
 
   </section>
 
-  <footer class="bg-[#0F0F0F] border-t border-white/10 text-white px-6 py-10">
+  <footer id="foot" class="bg-[#0F0F0F] border-t border-white/10 text-white px-6 py-10">
 
     <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
 

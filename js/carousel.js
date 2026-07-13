@@ -58,7 +58,7 @@
               Z.B.SETHNA ARCHITECTS
             </p>
 
-            <h1 class="text-white text-4xl md:text-7xl font-black leading-tight">
+            <h1 class="text-white text-4xl md:text-6xl font-black leading-tight">
               ${slide.quote}
             </h1>
 

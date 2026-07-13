@@ -70,7 +70,64 @@ const projects = [
             "/images/z2.jpg",
             "/images/z3.jpg",
         ]
-    }
+    },
+
+    {
+        title: "Homiar lam",
+
+        images: [
+            "/images/h1.jpg",
+            "/images/h2.jpg",
+            "/images/h3.jpg",
+            "/images/h4.jpg",
+            "/images/h5.jpg",
+        ]
+    },
+    {
+        title: "Hoshedar Confectioner",
+
+        images: [
+            "/images/hc1.jpg",
+            "/images/hc2.jpg",
+            "/images/hc3.jpg",
+            "/images/hc4.jpg",
+            "/images/hc5.jpg",
+        ]
+    },
+    {
+        title: "Sam Turel Breach Candy",
+
+        images: [
+            "/images/st1.jpg",
+            "/images/st2.jpg",
+            "/images/st3.jpg",
+            "/images/st4.jpg",
+            "/images/st5.jpg",
+        ]
+    },
+    {
+        title: "Pearl Kavasmanek Edenwalabuilding Dadar.",
+
+        images: [
+            "/images/pk1.jpg",
+            "/images/pk2.jpg",
+            "/images/pk3.jpg",
+            "/images/pk4.jpg",
+        ]
+    },
+    {
+        title: "Merzban Mehta",
+
+        images: [
+            "/images/mm1.jpg",
+            "/images/mm2.jpg",
+            "/images/mm3.jpg",
+            "/images/mm4.jpg",
+            "/images/mm5.jpg",
+            "/images/mm6.jpg",
+            "/images/mm7.jpg",
+        ]
+    },
 
 ]
 
