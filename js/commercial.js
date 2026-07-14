@@ -7,11 +7,11 @@ const projects = [
         title: "Arihant Bank",
 
         images: [
-            "/images/a1.JPG",
-            "/images/a2.JPG",
-            "/images/a3.JPG",
-            "/images/a4.JPG",
-            "/images/a5.JPG",
+            "../images/a1.JPG",
+            "../images/a2.JPG",
+            "../images/a3.JPG",
+            "../images/a4.JPG",
+            "../images/a5.JPG",
         ]
     },
 
@@ -19,11 +19,11 @@ const projects = [
         title: "Globe Hotel",
 
         images: [
-            "/images/g3.JPG",
-            "/images/g1.JPG",
-            "/images/g2.JPG",
-            "/images/g4.JPG",
-            "/images/g5.JPG"
+            "../images/g3.JPG",
+            "../images/g1.JPG",
+            "../images/g2.JPG",
+            "../images/g4.JPG",
+            "../images/g5.JPG"
         ]
     },
 
@@ -31,11 +31,11 @@ const projects = [
         title: "Super Star Video Labs,Dadar",
 
         images: [
-            "/images/s3.JPG",
-            "/images/s1.JPG",
-            "/images/s2.JPG",
-            "/images/s4.JPG",
-            "/images/s5.JPG",
+            "../images/s3.JPG",
+            "../images/s1.JPG",
+            "../images/s2.JPG",
+            "../images/s4.JPG",
+            "../images/s5.JPG",
         ]
     },
 
@@ -43,11 +43,11 @@ const projects = [
         title: "Rolex Work Shop,Dadar",
 
         images: [
-            "/images/r1.JPG",
-            "/images/r2.JPG",
-            "/images/r3.JPG",
-            "/images/r4.JPG",
-            "/images/r5.JPG",
+            "../images/r1.JPG",
+            "../images/r2.JPG",
+            "../images/r3.JPG",
+            "../images/r4.JPG",
+            "../images/r5.JPG",
         ]
     },
 
@@ -55,11 +55,11 @@ const projects = [
         title: "Tip-Top Office forMr. Randeria",
 
         images: [
-            "/images/t1.JPG",
-            "/images/t2.JPG",
-            "/images/t3.JPG",
-            "/images/t4.JPG",
-            "/images/t5.JPG",
+            "../images/t1.JPG",
+            "../images/t2.JPG",
+            "../images/t3.JPG",
+            "../images/t4.JPG",
+            "../images/t5.JPG",
         ]
     },
 
@@ -67,55 +67,55 @@ const projects = [
         title: "Premier Apartment,udvada",
 
         images: [
-            "/images/p1.JPG",
-            "/images/p2.JPG",
-            "/images/p3.JPG",
-            "/images/p4.JPG",
-            "/images/p5.JPG",
+            "../images/p1.JPG",
+            "../images/p2.JPG",
+            "../images/p3.JPG",
+            "../images/p4.JPG",
+            "../images/p5.JPG",
         ]
     },
     {
         title: "Shre Arihant Co.Oprative Bank Ltd. at Sanpada,Navi Mumbai",
 
         images: [
-            "/images/sa1.jpg",
-            "/images/sa2.jpg",
-            "/images/sa3.jpg",
-            "/images/sa4.jpg",
-            "/images/sa5.jpg",
+            "../images/sa1.JPG",
+            "../images/sa2.JPG",
+            "../images/sa3.JPG",
+            "../images/sa4.JPG",
+            "../images/sa5.JPG",
         ]
     },
     {
         title: "Rich Graviss Ltd.and bskin Robbins,M.I.D.C. Pimri,Pune",
 
         images: [
-            "/images/rg1.jpg",
-            "/images/rg2.jpg",
-            "/images/rg3.jpg",
-            "/images/rg4.jpg",
-            "/images/rg5.jpg",
-            "/images/rg6.jpg",
+            "../images/rg1.JPG",
+            "../images/rg2.JPG",
+            "../images/rg3.JPG",
+            "../images/rg4.JPG",
+            "../images/rg5.JPG",
+            "../images/rg6.JPG",
         ]
     },
     {
         title: "Rhyme-N-Rhythm,Music Salon at Colaba",
 
         images: [
-            "/images/rn1.jpg",
-            "/images/rn2.jpg",
-            "/images/rn3.jpg",
-            "/images/rn4.jpg",
+            "../images/rn1.JPG",
+            "../images/rn2.JPG",
+            "../images/rn3.JPG",
+            "../images/rn4.JPG",
         ]
     },
     {
         title: "neo logistics",
 
         images: [
-            "/images/ne1.jpg",
-            "/images/ne2.jpg",
-            "/images/ne3.jpg",
-            "/images/ne4.jpg",
-            "/images/ne5.jpg",
+            "../images/ne1.JPG",
+            "../images/ne2.JPG",
+            "../images/ne3.JPG",
+            "../images/ne4.JPG",
+            "../images/ne5.JPG",
         ]
     },
 

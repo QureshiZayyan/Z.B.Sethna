@@ -7,10 +7,10 @@ const projects = [
         title: "Ashish Wangh Bungalow, Udvada",
 
         images: [
-            "/images/Ashish Wangh Bungalow, Udvada.JPG",
-            "/images/img1.JPG",
-            "/images/img2.JPG",
-            "/images/img3.JPG"
+            "../images/Ashish Wangh Bungalow, Udvada.JPG",
+            "../images/img1.JPG",
+            "../images/img2.JPG",
+            "../images/img3.JPG"
         ]
     },
 
@@ -18,11 +18,11 @@ const projects = [
         title: "Franey Bathena",
 
         images: [
-            "/images/Frany Bathena.JPG",
-            "/images/img4.JPG",
-            "/images/img5.JPG",
-            "/images/img6.JPG",
-            "/images/img7.JPG"
+            "../images/Frany Bathena.JPG",
+            "../images/img4.JPG",
+            "../images/img5.JPG",
+            "../images/img6.JPG",
+            "../images/img7.JPG"
         ]
     },
 
@@ -30,11 +30,11 @@ const projects = [
         title: "Mr. Hoshang Mehta, Dadar",
 
         images: [
-            "/images/Mr. Hoshang Mehta ,Dadar.JPG",
-            "/images/20241214_180929.JPG",
-            "/images/20241214_181020.JPG",
-            "/images/20241214_181109.JPG",
-            "/images/20241214_181127.JPG"
+            "../images/Mr. Hoshang Mehta ,Dadar.JPG",
+            "../images/20241214_180929.JPG",
+            "../images/20241214_181020.JPG",
+            "../images/20241214_181109.JPG",
+            "../images/20241214_181127.JPG"
         ]
     },
 
@@ -42,10 +42,10 @@ const projects = [
         title: "Sharukh Kothawala Bungalow",
 
         images: [
-            "/images/Sharukh Kothawala Bungalow.JPG",
-            "/images/sk1.JPG",
-            "/images/sk2.JPG",
-            "/images/sk3.JPG"
+            "../images/Sharukh Kothawala Bungalow.JPG",
+            "../images/sk1.JPG",
+            "../images/sk2.JPG",
+            "../images/sk3.JPG"
         ]
     },
 
@@ -53,11 +53,11 @@ const projects = [
         title: "Sohrab Chinoy, Parsi Colony",
 
         images: [
-            "/images/Sohrab Chinoy, Parsi colony, Dadar.JPG",
-            "/images/sc1.JPG",
-            "/images/sc2.JPG",
-            "/images/sc3.JPG",
-            "/images/sc4.JPG",
+            "../images/Sohrab Chinoy, Parsi colony, Dadar.JPG",
+            "../images/sc1.JPG",
+            "../images/sc2.JPG",
+            "../images/sc3.JPG",
+            "../images/sc4.JPG",
         ]
     },
 
@@ -65,10 +65,10 @@ const projects = [
         title: "Zal Kavarana",
 
         images: [
-            "/images/zal kavarana.JPG",
-            "/images/z1.JPG",
-            "/images/z2.JPG",
-            "/images/z3.JPG",
+            "../images/zal kavarana.JPG",
+            "../images/z1.JPG",
+            "../images/z2.JPG",
+            "../images/z3.JPG",
         ]
     },
 
@@ -76,56 +76,56 @@ const projects = [
         title: "Homiar lam",
 
         images: [
-            "/images/h1.JPG",
-            "/images/h2.JPG",
-            "/images/h3.JPG",
-            "/images/h4.JPG",
-            "/images/h5.JPG",
+            "../images/h1.JPG",
+            "../images/h2.JPG",
+            "../images/h3.JPG",
+            "../images/h4.JPG",
+            "../images/h5.JPG",
         ]
     },
     {
         title: "Hoshedar Confectioner",
 
         images: [
-            "/images/hc1.JPG",
-            "/images/hc2.JPG",
-            "/images/hc3.JPG",
-            "/images/hc4.JPG",
-            "/images/hc5.JPG",
+            "../images/hc1.JPG",
+            "../images/hc2.JPG",
+            "../images/hc3.JPG",
+            "../images/hc4.JPG",
+            "../images/hc5.JPG",
         ]
     },
     {
         title: "Sam Turel Breach Candy",
 
         images: [
-            "/images/st1.JPG",
-            "/images/st2.JPG",
-            "/images/st3.JPG",
-            "/images/st4.JPG",
-            "/images/st5.JPG",
+            "../images/st1.JPG",
+            "../images/st2.JPG",
+            "../images/st3.JPG",
+            "../images/st4.JPG",
+            "../images/st5.JPG",
         ]
     },
     {
         title: "Pearl Kavasmanek Edenwalabuilding Dadar.",
 
         images: [
-            "/images/pk1.JPG",
-            "/images/pk2.JPG",
-            "/images/pk3.JPG",
-            "/images/pk4.JPG",
+            "../images/pk1.JPG",
+            "../images/pk2.JPG",
+            "../images/pk3.JPG",
+            "../images/pk4.JPG",
         ]
     },
     {
         title: "Merzban Mehta",
 
         images: [
-            "/images/mm1.JPG",
-            "/images/mm2.JPG",
-            "/images/mm3.JPG",
-            "/images/mm4.JPG",
-            "/images/mm5.JPG",
-            "/images/mm6.JPG",
-            "/images/mm7.JPG",
+            "../images/mm1.JPG",
+            "../images/mm2.JPG",
+            "../images/mm3.JPG",
+            "../images/mm4.JPG",
+            "../images/mm5.JPG",
+            "../images/mm6.JPG",
+            "../images/mm7.JPG",
         ]
     },
 
