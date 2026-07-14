@@ -55,11 +55,11 @@ const projects = [
         title: "TipTop Office",
 
         images: [
-            "/images/t1.JPG",
-            "/images/t2.JPG",
-            "/images/t3.JPG",
-            "/images/t4.JPG",
-            "/images/t5.JPG",
+            "/images/t1.jpg",
+            "/images/t2.jpg",
+            "/images/t3.jpg",
+            "/images/t4.jpg",
+            "/images/t5.jpg",
         ]
     },
 

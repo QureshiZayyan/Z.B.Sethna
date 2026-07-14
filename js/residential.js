@@ -30,11 +30,11 @@ const projects = [
         title: "Mr. Hoshang Mehta, Dadar",
 
         images: [
-            "/images/Mr. Hoshang Mehta ,Dadar.JPG",
-            "/images/20241214_180929.JPG",
-            "/images/20241214_181020.JPG",
-            "/images/20241214_181109.JPG",
-            "/images/20241214_181127.JPG"
+            "/images/Mr. Hoshang Mehta ,Dadar.jpg",
+            "/images/20241214_180929.jpg",
+            "/images/20241214_181020.jpg",
+            "/images/20241214_181109.jpg",
+            "/images/20241214_181127.jpg"
         ]
     },
 
@@ -53,11 +53,11 @@ const projects = [
         title: "Sohrab Chinoy, Parsi Colony",
 
         images: [
-            "/images/Sohrab Chinoy, Parsi colony, Dadar.JPG",
-            "/images/sc1.JPG",
-            "/images/sc2.JPG",
-            "/images/sc3.JPG",
-            "/images/sc4.JPG",
+            "/images/Sohrab Chinoy, Parsi colony, Dadar.jpg",
+            "/images/sc1.jpg",
+            "/images/sc2.jpg",
+            "/images/sc3.jpg",
+            "/images/sc4.jpg",
         ]
     },
 
@@ -65,10 +65,10 @@ const projects = [
         title: "Zal Kavarana",
 
         images: [
-            "/images/zal kavarana.JPG",
-            "/images/z1.JPG",
-            "/images/z2.JPG",
-            "/images/z3.JPG",
+            "/images/zal kavarana.jpg",
+            "/images/z1.jpg",
+            "/images/z2.jpg",
+            "/images/z3.jpg",
         ]
     },
 
@@ -98,34 +98,34 @@ const projects = [
         title: "Sam Turel Breach Candy",
 
         images: [
-            "/images/st1.JPG",
-            "/images/st2.JPG",
-            "/images/st3.JPG",
-            "/images/st4.JPG",
-            "/images/st5.JPG",
+            "/images/st1.jpg",
+            "/images/st2.jpg",
+            "/images/st3.jpg",
+            "/images/st4.jpg",
+            "/images/st5.jpg",
         ]
     },
     {
         title: "Pearl Kavasmanek Edenwalabuilding Dadar.",
 
         images: [
-            "/images/pk1.JPG",
-            "/images/pk2.JPG",
-            "/images/pk3.JPG",
-            "/images/pk4.JPG",
+            "/images/pk1.jpg",
+            "/images/pk2.jpg",
+            "/images/pk3.jpg",
+            "/images/pk4.jpg",
         ]
     },
     {
         title: "Merzban Mehta",
 
         images: [
-            "/images/mm1.JPG",
-            "/images/mm2.JPG",
-            "/images/mm3.JPG",
-            "/images/mm4.JPG",
-            "/images/mm5.JPG",
-            "/images/mm6.JPG",
-            "/images/mm7.JPG",
+            "/images/mm1.jpg",
+            "/images/mm2.jpg",
+            "/images/mm3.jpg",
+            "/images/mm4.jpg",
+            "/images/mm5.jpg",
+            "/images/mm6.jpg",
+            "/images/mm7.jpg",
         ]
     },
 
