@@ -52,7 +52,7 @@ const projects = [
     },
 
     {
-        title: "Tip-Top Office",
+        title: "TipTop Office",
 
         images: [
             "/images/t1.JPG",
